@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>🚀 आज ही शुरू करें ऑनलाइन काम — पेन में स्याही भरें ✍️ और हर दिन <span> ₹2000 </span> कमाएँ 💵  </h1>
+        <h1>Contact Information</h1>
+        <form class="user-form" id="userForm">
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" >
+            </div>
+            
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" >
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" >
+            </div>
+            <div class="form-group">
+                <label for="motherName">Mother's Name</label>
+                <input type="text" id="motherName" name="motherName" >
+            </div>
+            <div class="form-group">
+                <label for="fatherName">Father's Name</label>
+                <input type="text" id="fatherName" name="fatherName" >
+            </div>
+            <div class="form-group">
+                <label for="state">State</label>
+                <select id="state" name="state">
+                    <option value="">Select a state</option>
+                    <option value="CA">Rajasthan</option>
+                    <option value="NY">Punjab</option>
+                    <option value="TX">Delhi</option>
+                    <option value="TX">Hariyana</option>
+                    <option value="TX">Gujrat</option>
+                    <option value="TX">Maharashtra</option>
+                    <option value="TX">Uttar Pradesh</option>
+                    <option value="TX">madhya Pradesh</option>
+                    <option value="TX">Bihar</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="district">District</label>
+               <select name="District" id="District">
+                <option value="">select your district</option>
+                <option value="BKN">Bikaner</option>
+                <option value="CHR">Churu</option>
+                <option value="JDH">Jodhpur</option>
+                <option value="JPR">Jaisalmer</option>
+                <option value="NGR">Nagaur</option>
+                <option value="ADR">Alwar</option>
+                <option value="CHD">Chandigarh</option>
+                <option value="JPR">jaipur</option>
+                <option value="SGN">Sriganganagar</option>
+                <option value="HMG">Hisar</option>
+                <option value="HNG">Hanumangarh</option>
+                <option value="DL">Delhi</option>
+               </select>
+            </div>
+          
+            
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="main.js"></script>
+  
+</body>
+</html>
