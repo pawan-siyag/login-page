@@ -31,6 +31,23 @@ body {
     color: #4c89ecc5;
 }
 
+.qrimage {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+    justify-content: center;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 16px;
+}
+.qrimage :hover{
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(44, 124, 253, 0.863)
+}
+
+
 h1 {
     font-size: 1.75rem;
     font-weight: 600;
