@@ -25,6 +25,12 @@ body {
     max-width: 480px;
 }
 
+.logo h1{
+    font-size: 2.4rem;
+    font-weight: 820;
+    color: #4c89ecc5;
+}
+
 h1 {
     font-size: 1.75rem;
     font-weight: 600;
