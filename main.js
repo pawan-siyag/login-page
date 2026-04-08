@@ -19,3 +19,21 @@ form.addEventListener("submit", function (e) {
     btn.disabled = false;
   });
 });
+
+
+let mainbody = document.getElementById("mainbody");
+let toggleBtn = document.getElementById("toggle");
+isDark = false;
+
+
+function toggle() {
+  if (isDark) {
+    mainbody.style.backgroundColor = "white";
+    toggleBtn.innerText = "Dark mode";
+  }
+else{
+    mainbody.style.backgroundColor = "black";
+    toggleBtn.innerText = "Light mode";
+}
+isDark = !isDark;
+}
